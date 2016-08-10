@@ -1,0 +1,17 @@
+<cp-and-translate
+   dest="ouifmk.jar"
+   name=".svn/text-base/ouifmk.jar.svn-base"/>
+<modify-entry
+   name="ouifmk.jar"
+   text-time="working"/>
+<modify-entry
+   name="ouifmk.jar"
+   working-size="working"/>
+<rm
+   name="ouifmk.jar.r337"/>
+<rm
+   name="ouifmk.jar.r356"/>
+<modify-entry
+   name="ouifmk.jar"
+   conflict-new=""
+   conflict-old=""/>

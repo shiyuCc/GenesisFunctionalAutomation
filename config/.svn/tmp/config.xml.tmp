@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+<<<<<<< .mine
+	<!-- -<seleniumServer>http://genesisqe2:4444/wd/hub</seleniumServer> -->  
+=======
+<!--  
+	<seleniumServer>http://genesisqe2:4444/wd/hub</seleniumServer>  
+>>>>>>> .r415
+	-->
+	
+	<trId>2012</trId>
+	<testsuites>
+		<!-- The package containing your test cases. Could be more than one. -->
+		<testsuite>com.omniture.uiautomation.genesis.tests.bvt</testsuite>
+		<testsuite>com.omniture.uiautomation.genesis.tests.wizard</testsuite>
+	</testsuites>
+	<environments>
+		<!-- The environment that you may test on. Could be more than one. -->
+		<environment>
+			<name>QE1</name>
+			<company>ASC Genesis</company>
+			<username>genesis</username>
+			<password>Qwer@123</password>
+			<baseUrl>https://acc.www.qe1.omniture.com</baseUrl>
+		</environment>
+		<environment>
+			<name>QE2</name>
+			<company>ASC Genesis</company>
+			<username>genesis</username>
+			<password>Qwer@123</password>
+			<baseUrl>https://acc.www.qe2.omniture.com</baseUrl>
+		</environment>
+		<environment>
+			<name>QE3</name>
+			<company>ASC Genesis</company>
+			<username>genesis</username>
+			<password>Qwer@123</password>
+			<baseUrl>https://acc.www.qe3.omniture.com</baseUrl>
+		</environment>
+		
+		<environment>
+			<name>Beta-main</name>
+			<company>ASC Genesis SJO</company>
+			<username>genesis</username>
+			<password>Qwer@123</password>
+			<baseUrl>https://beta.omniture.com</baseUrl>
+		</environment>
+		<environment>
+			<name>Beta2-main</name>
+			<company>ASC Genesis DAL</company>
+			<username>genesis</username>
+			<password>Qwer@123</password>
+			<baseUrl>https://beta2.omniture.com</baseUrl>
+		</environment>
+		<environment>
+			<name>Beta3-main</name>
+			<company>ASC Genesis LON</company>
+			<username>genesis</username>
+			<password>Qwer@123</password>
+			<baseUrl>https://beta3.omniture.com</baseUrl>
+		</environment>
+		<environment>
+			<name>Beta4-main</name>
+			<company>ASC Genesis SIN</company>
+			<username>genesis</username>
+			<password>Qwer@123</password>
+			<baseUrl>https://beta4.omniture.com</baseUrl>
+		</environment>
+		
+		<environment>
+			<name>Beta-A</name>
+			<company>ASC Genesis SJO</company>
+			<username>genesis</username>
+			<password>Qwer@123</password>
+			<baseUrl>https://beta-a.omniture.com</baseUrl>
+		</environment>
+		<environment>
+			<name>Beta2-A</name>
+			<company>ASC Genesis DAL</company>
+			<username>genesis</username>
+			<password>Qwer@123</password>
+			<baseUrl>https://beta2-a.omniture.com</baseUrl>
+		</environment>
+		<environment>
+			<name>Beta3-A</name>
+			<company>ASC Genesis LON</company>
+			<username>genesis</username>
+			<password>Qwer@123</password>
+			<baseUrl>https://beta3-a.omniture.com</baseUrl>
+		</environment>
+		<environment>
+			<name>Beta4-A</name>
+			<company>ASC Genesis SIN</company>
+			<username>genesis</username>
+			<password>Qwer@123</password>
+			<baseUrl>https://beta4-a.omniture.com</baseUrl>
+		</environment>
+		
+		<environment>
+			<name>Live-SJO</name>
+			<company>ASC Genesis SJO</company>
+			<username>genesis</username>
+			<password>Qwer@123</password>
+			<baseUrl>https://sc.omniture.com</baseUrl>
+		</environment>
+		<environment>
+			<name>Live-DAL</name>
+			<company>ASC Genesis DAL</company>
+			<username>genesis</username>
+			<password>Qwer@123</password>
+			<baseUrl>https://sc2.omniture.com</baseUrl>
+		</environment>
+		<environment>
+			<name>Live-LON</name>
+			<company>ASC Genesis LON</company>
+			<username>genesis</username>
+			<password>Qwer@123</password>
+			<baseUrl>https://sc3.omniture.com</baseUrl>
+		</environment>
+		<environment>
+			<name>Live-SIN</name>
+			<company>ASC Genesis SIN</company>
+			<username>genesis</username>
+			<password>Qwer@123</password>
+			<baseUrl>https://sc4.omniture.com</baseUrl>
+		</environment>
+		
+		<environment>
+			<name>DevConn-QE1</name>
+			<company> </company>
+			<username>genesis</username>
+			<password>Qwer@123</password>
+			<baseUrl>http://developer.www.qe1.omniture.com</baseUrl>
+		</environment>
+	</environments>
+</config>

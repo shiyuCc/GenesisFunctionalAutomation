@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/Genesis/!svn/ver/337/GenesisFunctionalAutomation
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Genesis/!svn/ver/125/GenesisFunctionalAutomation/.classpath
+END
+TestRunner.launch
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Genesis/!svn/ver/42/GenesisFunctionalAutomation/TestRunner.launch
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Genesis/!svn/ver/68/GenesisFunctionalAutomation/.project
+END
+TestRunner.bat
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Genesis/!svn/ver/146/GenesisFunctionalAutomation/TestRunner.bat
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Genesis/!svn/ver/339/GenesisFunctionalAutomation/build.xml
+END

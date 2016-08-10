@@ -1,0 +1,220 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x61b0631c, pid=6708, tid=9700
+#
+# Java VM: Java HotSpot(TM) Client VM (11.0-b15 mixed mode, sharing windows-x86)
+# Problematic frame:
+# C  [IEDriver.dll+0x5631c]
+#
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x01509800):  JavaThread "main" [_thread_in_native, id=9700, stack(0x00350000,0x003a0000)]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0x05e8fffc
+
+Registers:
+EAX=0x08be20b4, EBX=0x00000000, ECX=0x0059c4af, EDX=0x00000000
+ESP=0x0039f1ec, EBP=0x0039f1f4, ESI=0x05e8fffc, EDI=0x075012d8
+EIP=0x61b0631c, EFLAGS=0x00010606
+
+Top of Stack: (sp=0x0039f1ec)
+0x0039f1ec:   0039f258 043c3370 0039f214 61ab3e7d
+0x0039f1fc:   05e90020 0481ed44 043c3370 043c11f8
+0x0039f20c:   0039f258 0481ed38 0039f284 61ac17bd
+0x0039f21c:   0481ed44 00000000 ffffffff 61ae849b
+0x0039f22c:   def1c901 0039f380 043c11f8 00000000
+0x0039f23c:   043cdf80 043c1278 043cdf80 043c1210
+0x0039f24c:   043c1278 77a16536 043c11f8 05e90020
+0x0039f25c:   00000000 043c11f8 047f1970 00000000 
+
+Instructions: (pc=0x61b0631c)
+0x61b0630c:   00 00 75 24 c1 e9 02 83 e2 03 83 f9 08 72 0d fd
+0x61b0631c:   f3 a5 fc ff 24 95 4c 64 b0 61 8b ff f7 d9 ff 24 
+
+
+Stack: [0x00350000,0x003a0000],  sp=0x0039f1ec,  free space=316k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [IEDriver.dll+0x5631c]
+C  [IEDriver.dll+0x3e7d]
+C  [IEDriver.dll+0x117bd]
+C  [IEDriver.dll+0x32f2b]
+C  [IEDriver.dll+0x744e0]
+C  [jna15500.dll+0xce92]
+C  [jna15500.dll+0x2dde]
+C  [jna15500.dll+0x53ae]
+j  com.sun.jna.Native.invokeVoid(JI[Ljava/lang/Object;)V+0
+j  com.sun.jna.Function.invoke([Ljava/lang/Object;Ljava/lang/Class;Z)Ljava/lang/Object;+49
+j  com.sun.jna.Function.invoke(Ljava/lang/Class;[Ljava/lang/Object;Ljava/util/Map;)Ljava/lang/Object;+214
+j  com.sun.jna.Library$Handler.invoke(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;+341
+j  org.openqa.selenium.ie.$Proxy0.StopServer(Lcom/sun/jna/Pointer;)V+16
+j  org.openqa.selenium.ie.InternetExplorerDriverServer.stop()V+13
+j  org.openqa.selenium.ie.InternetExplorerDriver.stopClient()V+11
+j  org.openqa.selenium.remote.RemoteWebDriver.quit()V+18
+j  com.omniture.uiautomation.TestRunner.runOnce(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Z+91
+j  com.omniture.uiautomation.TestRunner.runAll()Z+179
+j  com.omniture.uiautomation.TestRunner.run([Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Z+167
+j  com.omniture.uiautomation.TestRunner.main([Ljava/lang/String;)V+97
+v  ~StubRoutines::call_stub
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  com.sun.jna.Native.invokeVoid(JI[Ljava/lang/Object;)V+0
+j  com.sun.jna.Function.invoke([Ljava/lang/Object;Ljava/lang/Class;Z)Ljava/lang/Object;+49
+j  com.sun.jna.Function.invoke(Ljava/lang/Class;[Ljava/lang/Object;Ljava/util/Map;)Ljava/lang/Object;+214
+j  com.sun.jna.Library$Handler.invoke(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;+341
+j  org.openqa.selenium.ie.$Proxy0.StopServer(Lcom/sun/jna/Pointer;)V+16
+j  org.openqa.selenium.ie.InternetExplorerDriverServer.stop()V+13
+j  org.openqa.selenium.ie.InternetExplorerDriver.stopClient()V+11
+j  org.openqa.selenium.remote.RemoteWebDriver.quit()V+18
+j  com.omniture.uiautomation.TestRunner.runOnce(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Class;)Z+91
+j  com.omniture.uiautomation.TestRunner.runAll()Z+179
+j  com.omniture.uiautomation.TestRunner.run([Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Z+167
+j  com.omniture.uiautomation.TestRunner.main([Ljava/lang/String;)V+97
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x01693800 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=5008, stack(0x038f0000,0x03940000)]
+  0x0168fc00 JavaThread "CompilerThread0" daemon [_thread_blocked, id=9224, stack(0x038a0000,0x038f0000)]
+  0x0168f000 JavaThread "Attach Listener" daemon [_thread_blocked, id=1768, stack(0x03850000,0x038a0000)]
+  0x0168c400 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=10236, stack(0x03800000,0x03850000)]
+  0x01649c00 JavaThread "Finalizer" daemon [_thread_blocked, id=6612, stack(0x037b0000,0x03800000)]
+  0x01645000 JavaThread "Reference Handler" daemon [_thread_blocked, id=9208, stack(0x03760000,0x037b0000)]
+=>0x01509800 JavaThread "main" [_thread_in_native, id=9700, stack(0x00350000,0x003a0000)]
+
+Other Threads:
+  0x01643800 VMThread [stack: 0x03710000,0x03760000] [id=9188]
+  0x0169f000 WatcherThread [stack: 0x03940000,0x03990000] [id=5912]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap
+ def new generation   total 960K, used 458K [0x237a0000, 0x238a0000, 0x23c80000)
+  eden space 896K,  49% used [0x237a0000, 0x2380f0f0, 0x23880000)
+  from space 64K,  21% used [0x23890000, 0x23893710, 0x238a0000)
+  to   space 64K,   0% used [0x23880000, 0x23880000, 0x23890000)
+ tenured generation   total 4096K, used 1175K [0x23c80000, 0x24080000, 0x277a0000)
+   the space 4096K,  28% used [0x23c80000, 0x23da5e60, 0x23da6000, 0x24080000)
+ compacting perm gen  total 12288K, used 5671K [0x277a0000, 0x283a0000, 0x2b7a0000)
+   the space 12288K,  46% used [0x277a0000, 0x27d29f88, 0x27d2a000, 0x283a0000)
+    ro space 8192K,  67% used [0x2b7a0000, 0x2bd02f30, 0x2bd03000, 0x2bfa0000)
+    rw space 12288K,  53% used [0x2bfa0000, 0x2c610180, 0x2c610200, 0x2cba0000)
+
+Dynamic libraries:
+0x00400000 - 0x00424000 	C:\Program Files\Java\jdk1.6.0_10\jre\bin\javaw.exe
+0x779c0000 - 0x77afc000 	C:\Windows\SYSTEM32\ntdll.dll
+0x77370000 - 0x77444000 	C:\Windows\system32\kernel32.dll
+0x75cb0000 - 0x75cfa000 	C:\Windows\system32\KERNELBASE.dll
+0x76530000 - 0x765d0000 	C:\Windows\system32\ADVAPI32.dll
+0x774a0000 - 0x7754c000 	C:\Windows\system32\msvcrt.dll
+0x77b20000 - 0x77b39000 	C:\Windows\SYSTEM32\sechost.dll
+0x760e0000 - 0x76181000 	C:\Windows\system32\RPCRT4.dll
+0x76460000 - 0x76529000 	C:\Windows\system32\USER32.dll
+0x77ba0000 - 0x77bee000 	C:\Windows\system32\GDI32.dll
+0x77b10000 - 0x77b1a000 	C:\Windows\system32\LPK.dll
+0x76040000 - 0x760dd000 	C:\Windows\system32\USP10.dll
+0x765d0000 - 0x765ef000 	C:\Windows\system32\IMM32.DLL
+0x765f0000 - 0x766bc000 	C:\Windows\system32\MSCTF.dll
+0x7c340000 - 0x7c396000 	C:\Program Files\Java\jdk1.6.0_10\jre\bin\msvcr71.dll
+0x6d8b0000 - 0x6db06000 	C:\Program Files\Java\jdk1.6.0_10\jre\bin\client\jvm.dll
+0x73dd0000 - 0x73e02000 	C:\Windows\system32\WINMM.dll
+0x75a80000 - 0x75acc000 	C:\Windows\system32\apphelp.dll
+0x6d330000 - 0x6d338000 	C:\Program Files\Java\jdk1.6.0_10\jre\bin\hpi.dll
+0x77b00000 - 0x77b05000 	C:\Windows\system32\PSAPI.DLL
+0x6d860000 - 0x6d86c000 	C:\Program Files\Java\jdk1.6.0_10\jre\bin\verify.dll
+0x6d3d0000 - 0x6d3ef000 	C:\Program Files\Java\jdk1.6.0_10\jre\bin\java.dll
+0x6d8a0000 - 0x6d8af000 	C:\Program Files\Java\jdk1.6.0_10\jre\bin\zip.dll
+0x6d0b0000 - 0x6d1e8000 	C:\Program Files\Java\jdk1.6.0_10\jre\bin\awt.dll
+0x70560000 - 0x705b1000 	C:\Windows\system32\WINSPOOL.DRV
+0x776a0000 - 0x777fc000 	C:\Windows\system32\ole32.dll
+0x73600000 - 0x73684000 	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.17514_none_ec83dffa859149af\comctl32.dll
+0x10000000 - 0x10072000 	C:\Users\shichen\AppData\Local\Temp\jna\jna15500.dll
+0x61ab0000 - 0x61c07000 	C:\Users\shichen\AppData\Local\Temp\webdriver15499libs\IEDriver.dll
+0x750e0000 - 0x750e9000 	C:\Windows\system32\VERSION.dll
+0x763d0000 - 0x7645f000 	C:\Windows\system32\OLEAUT32.dll
+0x745a0000 - 0x74730000 	C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.17825_none_72d273598668a06b\gdiplus.dll
+0x75e60000 - 0x75e95000 	C:\Windows\system32\WS2_32.dll
+0x75e50000 - 0x75e56000 	C:\Windows\system32\NSI.dll
+0x6d6c0000 - 0x6d6d3000 	C:\Program Files\Java\jdk1.6.0_10\jre\bin\net.dll
+0x75590000 - 0x755cc000 	C:\Windows\system32\mswsock.dll
+0x75580000 - 0x75586000 	C:\Windows\System32\wship6.dll
+0x03bb0000 - 0x03bcd000 	C:\Windows\system32\xunyount.dll
+0x74e40000 - 0x74e5c000 	C:\Windows\system32\iphlpapi.dll
+0x74e30000 - 0x74e37000 	C:\Windows\system32\WINNSI.DLL
+0x74de0000 - 0x74df2000 	C:\Windows\system32\dhcpcsvc.DLL
+0x74dd0000 - 0x74dd6000 	C:\Windows\System32\wshqos.dll
+0x74dc0000 - 0x74dc5000 	C:\Windows\system32\wshtcpip.DLL
+0x75450000 - 0x75494000 	C:\Windows\system32\DNSAPI.dll
+0x73520000 - 0x73547000 	C:\Program Files\Common Files\Microsoft Shared\Windows Live\WLIDNSP.DLL
+0x77310000 - 0x77367000 	C:\Windows\system32\SHLWAPI.dll
+0x737e0000 - 0x737e6000 	C:\Windows\system32\rasadhlp.dll
+0x72740000 - 0x72778000 	C:\Windows\System32\fwpuclnt.dll
+0x755d0000 - 0x755e6000 	C:\Windows\system32\CRYPTSP.dll
+0x75370000 - 0x753ab000 	C:\Windows\system32\rsaenh.dll
+0x751a0000 - 0x751b7000 	C:\Windows\system32\USERENV.dll
+0x75b50000 - 0x75b5b000 	C:\Windows\system32\profapi.dll
+0x75ad0000 - 0x75adc000 	C:\Windows\system32\CRYPTBASE.dll
+0x73b90000 - 0x73ba0000 	C:\Windows\system32\NLAapi.dll
+0x73e20000 - 0x73e30000 	C:\Windows\system32\napinsp.dll
+0x73800000 - 0x73812000 	C:\Windows\system32\pnrpnsp.dll
+0x73e10000 - 0x73e18000 	C:\Windows\System32\winrnr.dll
+0x74840000 - 0x74880000 	C:\Windows\system32\uxtheme.dll
+0x63c10000 - 0x63c92000 	C:\ProgramData\Tencent\TSVulFw\TSVulFW.DAT
+0x76220000 - 0x7633b000 	C:\Windows\system32\WININET.dll
+0x76210000 - 0x76213000 	C:\Windows\system32\Normaliz.dll
+0x77800000 - 0x779b8000 	C:\Windows\system32\iertutil.dll
+0x77580000 - 0x77691000 	C:\Windows\system32\urlmon.dll
+0x766c0000 - 0x7730a000 	C:\Windows\system32\SHELL32.dll
+0x76190000 - 0x7620b000 	C:\Windows\system32\comdlg32.dll
+0x75050000 - 0x750d7000 	C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCP80.dll
+0x74fb0000 - 0x7504b000 	C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a\MSVCR80.dll
+0x04dc0000 - 0x04e36000 	C:\Program Files\360\360Safe\safemon\safemon.dll
+0x71520000 - 0x71586000 	C:\Windows\system32\MSVCP60.dll
+0x74880000 - 0x74a1e000 	C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2\comctl32.dll
+0x75b40000 - 0x75b4e000 	C:\Windows\system32\RpcRtRemote.dll
+0x76340000 - 0x763c3000 	C:\Windows\system32\CLBCatQ.DLL
+0x75ae0000 - 0x75b3f000 	C:\Windows\system32\SXS.DLL
+0x75a20000 - 0x75a28000 	C:\Windows\System32\Secur32.dll
+0x75a60000 - 0x75a7b000 	C:\Windows\system32\SSPICLI.DLL
+0x73fd0000 - 0x74022000 	C:\Windows\system32\RASAPI32.dll
+0x73fb0000 - 0x73fc5000 	C:\Windows\system32\rasman.dll
+0x73fa0000 - 0x73fad000 	C:\Windows\system32\rtutils.dll
+0x708f0000 - 0x708f6000 	C:\Windows\system32\sensapi.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=GBK 
+java_command: com.omniture.uiautomation.TestRunner ie DevConn-Beta com.omniture.uiautomation.devcenter.tests
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.6.0_10
+CLASSPATH=.;C:\Program Files\Java\jdk1.6.0_10\lib\dt.jar;C:\Program Files\Java\jdk1.6.0_10\lib\tools.jar
+PATH=C:/Program Files/Java/jre6/bin/client;C:/Program Files/Java/jre6/bin;C:/Program Files/Java/jre6/lib/i386;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files\ATI Technologies\ATI.ACE\Core-Static;c:\Program Files\Intel\DMIX;C:\Program Files\Windows Live\Shared;C:\Program Files\Common Files\Roxio Shared\DLLShared\;C:\Program Files\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files\Common Files\Roxio Shared\OEM\DLLShared\;C:\Program Files\Common Files\Roxio Shared\OEM\12.0\DLLShared\;C:\Program Files\Roxio\OEM\AudioCore\;C:\xampp\php;C:\Program Files\Java\jdk1.6.0_10\bin;C:\Users\shichen\AppData\Local\Google\Chrome\Application;C:\Program Files\Tencent\QQPCMgr\6.6.2136.201;C:\Program Files\Tencent\QQPCMgr\6.6.2136.201
+USERNAME=shichen
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 23 Stepping 10, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows NT 6.1 Build 7601 Service Pack 1
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 7 stepping 10, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3
+
+Memory: 4k page, physical 2097151k(1465548k free), swap 4194303k(4194303k free)
+
+vm_info: Java HotSpot(TM) Client VM (11.0-b15) for windows-x86 JRE (1.6.0_10-rc2-b32), built on Sep 12 2008 00:52:11 by "java_re" with MS VC++ 7.1
+
+time: Thu May 10 10:32:36 2012
+elapsed time: 155 seconds
+

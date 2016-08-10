@@ -1,0 +1,11 @@
+[1102/101322:WARNING:webdriver_session.cc(1408)] Element's descendant would receive the click. Consider clicking the descendant instead. Descendant: <a>...</a>
+[1102/101345:WARNING:webdriver_session.cc(1408)] Element's descendant would receive the click. Consider clicking the descendant instead. Descendant: <a>...</a>
+[1102/101415:WARNING:webdriver_session.cc(1408)] Element's descendant would receive the click. Consider clicking the descendant instead. Descendant: <a>...</a>
+[1102/101504:WARNING:webdriver_session.cc(1408)] Element's descendant would receive the click. Consider clicking the descendant instead. Descendant: <a>...</a>
+[1102/101520:WARNING:webdriver_session.cc(1408)] Element's descendant would receive the click. Consider clicking the descendant instead. Descendant: <a>...</a>
+[1102/101814:WARNING:webdriver_session.cc(1408)] Element's descendant would receive the click. Consider clicking the descendant instead. Descendant: <a>...</a>
+[1102/102135:WARNING:webdriver_session.cc(1408)] Element's descendant would receive the click. Consider clicking the descendant instead. Descendant: <a>...</a>
+[1102/102151:WARNING:webdriver_session.cc(1408)] Element's descendant would receive the click. Consider clicking the descendant instead. Descendant: <a>...</a>
+[1102/102320:WARNING:webdriver_session.cc(1408)] Element's descendant would receive the click. Consider clicking the descendant instead. Descendant: <a>...</a>
+[1102/102423:WARNING:webdriver_session.cc(1408)] Element's descendant would receive the click. Consider clicking the descendant instead. Descendant: <a>...</a>
+[1102/102449:WARNING:webdriver_session.cc(1408)] Element's descendant would receive the click. Consider clicking the descendant instead. Descendant: <a>...</a>

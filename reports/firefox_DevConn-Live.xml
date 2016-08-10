@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" hostname="csy-PC" name="firefox DevConn-Live" tests="8" time="395.724" timestamp="2012-08-17T00:49:19"><testcase classname="com.omniture.uiautomation.devcenter.tests.CustomerSupportTest" name="testCustomerSupportPage" time="92.868"/><testcase classname="com.omniture.uiautomation.devcenter.tests.MemberTest" name="testMemberPage" time="40.329"/><testcase classname="com.omniture.uiautomation.devcenter.tests.MobileTest" name="testMobilePage" time="19.031"><failure message="Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[.='Public Download']&quot;}&#10;Command duration or timeout: 16 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '2.20.0', revision: '16008', time: '2012-02-27 19:03:04'&#10;System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0_10-rc2'&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//a[.='Public Download']"}
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.20.0', revision: '16008', time: '2012-02-27 19:03:04'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0_10-rc2'
+Driver info: driver.version: RemoteWebDriver&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:170)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:123)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:438)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:226)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:299)&#13;
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:344)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:218)&#13;
+	at com.omniture.uiautomation.framework.SeleniumPage.findElement(SeleniumPage.java:52)&#13;
+	at com.omniture.uiautomation.framework.SeleniumPage.assertElementExists(SeleniumPage.java:190)&#13;
+	at com.omniture.uiautomation.devcenter.pages.MobilePage.assertPageDisplay(MobilePage.java:16)&#13;
+	at com.omniture.uiautomation.devcenter.tests.MobileTest.testMobilePage(MobileTest.java:18)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:597)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:128)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:24)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)&#13;
+	at com.omniture.uiautomation.TestRunner.runOnce(TestRunner.java:113)&#13;
+	at com.omniture.uiautomation.TestRunner.runAll(TestRunner.java:89)&#13;
+	at com.omniture.uiautomation.TestRunner.run(TestRunner.java:68)&#13;
+	at com.omniture.uiautomation.TestRunner.main(TestRunner.java:40)&#13;
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"xpath","selector":"//a[.='Public Download']"}
+Build info: version: '2.20.0', revision: '16008', time: '2012-02-27 19:03:04'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0_10-rc2'
+Driver info: driver.version: unknown&#13;
+	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///C:/Users/shichen/AppData/Local/Temp/anonymous42115webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:10140)&#13;
+	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///C:/Users/shichen/AppData/Local/Temp/anonymous42115webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:10148)&#13;
+	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///C:/Users/shichen/AppData/Local/Temp/anonymous42115webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10529)&#13;
+	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///C:/Users/shichen/AppData/Local/Temp/anonymous42115webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10534)&#13;
+	at &lt;anonymous class&gt;.&lt;anonymous method&gt;(file:///C:/Users/shichen/AppData/Local/Temp/anonymous42115webdriver-profile/extensions/fxdriver@googlecode.com/components/command_processor.js:10482)&#13;
+</failure></testcase><testcase classname="com.omniture.uiautomation.devcenter.tests.MyProductsTest" name="testMyProductsPage" time="133.23"/><testcase classname="com.omniture.uiautomation.devcenter.tests.OverviewTest" name="testOverviewPage" time="37.429"/><testcase classname="com.omniture.uiautomation.devcenter.tests.PartnerApiTest" name="testPartnerApiPage" time="32.995"/><testcase classname="com.omniture.uiautomation.devcenter.tests.ReportSuiteTest" name="testReportSuitePage" time="21.465"/><testcase classname="com.omniture.uiautomation.devcenter.tests.Scene7Test" name="testScene7Page" time="18.362"/></testsuite>

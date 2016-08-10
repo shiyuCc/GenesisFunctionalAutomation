@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" hostname="csy-PC" name="chrome Live-SJO" tests="1" time="47.817" timestamp="2012-08-21T09:29:08"><testcase classname="com.omniture.uiautomation.genesis.tests.SortTest" name="testSort" time="47.776"><failure message="Not by Alphabetical!&#10;The strings to be checked are:&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;Adform&#10;BlueHornet eMarketing Suite&#10;BrightEdge&#10;BrightEdge Express&#10;Bronto Software&#10;CheetahMail&#10;Conductor&#10;Conductor Organic Metrics&#10;Coradiant TrueSight&#10;Datran Media&#10;Delivra&#10;Demandbase&#10;DoubleClick for Advertisers (DFA)&#10;DREAM&#10;DREAMmail&#10;e-Dialog Precision Central&#10;eC-messenger&#10;Eloqua&#10;Emailvision Campaign Commander&#10;ExactTarget&#10;Facebook Demographics for Apps and Websites&#10;ForeSee (v2.0)&#10;Gigya&#10;HootSuite&#10;Listrak&#10;MediaMind&#10;Merkle&#10;Pa&#10;productStudy&#10;Responsys&#10;Salesforce.com&#10;Searchmetrics&#10;Silverpop Engage&#10;StrongMail Systems, Inc.&#10;ThinData EMS&#10;WhatCounts Email&#10;Yesmail Enterprise&#10;Zeta Interactive&#10;&#10;" type="java.lang.AssertionError">java.lang.AssertionError: Not by Alphabetical!
+The strings to be checked are:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Adform
+BlueHornet eMarketing Suite
+BrightEdge
+BrightEdge Express
+Bronto Software
+CheetahMail
+Conductor
+Conductor Organic Metrics
+Coradiant TrueSight
+Datran Media
+Delivra
+Demandbase
+DoubleClick for Advertisers (DFA)
+DREAM
+DREAMmail
+e-Dialog Precision Central
+eC-messenger
+Eloqua
+Emailvision Campaign Commander
+ExactTarget
+Facebook Demographics for Apps and Websites
+ForeSee (v2.0)
+Gigya
+HootSuite
+Listrak
+MediaMind
+Merkle
+Pa
+productStudy
+Responsys
+Salesforce.com
+Searchmetrics
+Silverpop Engage
+StrongMail Systems, Inc.
+ThinData EMS
+WhatCounts Email
+Yesmail Enterprise
+Zeta Interactive
+
+&#13;
+	at org.junit.Assert.fail(Assert.java:93)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:43)&#13;
+	at com.omniture.uiautomation.framework.SeleniumPage.assertSortByText(SeleniumPage.java:328)&#13;
+	at com.omniture.uiautomation.genesis.pages.GenesisIntegrationPage.assertProductsSortedByName(GenesisIntegrationPage.java:53)&#13;
+	at com.omniture.uiautomation.genesis.tests.SortTest.testSort(SortTest.java:39)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:597)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:128)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:24)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)&#13;
+	at com.omniture.uiautomation.TestRunner.runOnce(TestRunner.java:113)&#13;
+	at com.omniture.uiautomation.TestRunner.runAll(TestRunner.java:89)&#13;
+	at com.omniture.uiautomation.TestRunner.run(TestRunner.java:68)&#13;
+	at com.omniture.uiautomation.TestRunner.main(TestRunner.java:40)&#13;
+</failure></testcase></testsuite>

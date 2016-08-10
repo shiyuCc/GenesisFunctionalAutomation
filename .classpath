@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="libs/junit-4.10.jar"/>
+	<classpathentry kind="lib" path="libs/ouifmk.jar" sourcepath="/UiTestingFramework"/>
+	<classpathentry kind="lib" path="libs/selenium-server-standalone-2.20.0.jar"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

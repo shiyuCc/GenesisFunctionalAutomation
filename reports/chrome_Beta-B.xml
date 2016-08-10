@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" hostname="csy-PC" name="chrome Beta-B" tests="8" time="842.843" timestamp="2012-11-02T02:11:22"><testcase classname="com.omniture.uiautomation.genesis.tests.AddIntegrationTest" name="testAddIntegration" time="173.338"/><testcase classname="com.omniture.uiautomation.genesis.tests.DashboardTipsTricksTest" name="testDashboardTipsTricks" time="92.969"/><testcase classname="com.omniture.uiautomation.genesis.tests.RibbonButtonAndLanguageTest" name="testRibbonButtonAndLanguage" time="175.27"/><testcase classname="com.omniture.uiautomation.genesis.tests.SearchTextboxTest" name="testSearchTextbox" time="33.51"/><testcase classname="com.omniture.uiautomation.genesis.tests.SortingAndPaginationTest" name="testSortingAndPagination" time="73.503"/><testcase classname="com.omniture.uiautomation.genesis.tests.SortTest" name="testSort" time="11.576"><failure message="Not by Alphabetical!&#10;The strings to be checked are:&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;24/7 OAS&#10;Adform&#10;Aprimo Enterprise Marketing Management&#10;Apsis&#10;Azia&#10;BlueHornet eMarketing Suite&#10;BrightEdge&#10;BrightEdge Express&#10;Bronto Software&#10;Bunchball&#10;CheetahMail&#10;ClickTale&#10;Concep&#10;Conductor&#10;Coradiant TrueSight&#10;Datran Media&#10;Delivra&#10;Demandbase&#10;DoubleClick for Advertisers (DFA)&#10;DREAM&#10;DREAMmail 2.0&#10;e-Dialog Precision Central&#10;eC-messenger&#10;Eloqua&#10;Emailvision Campaign Commander&#10;emarsys xpress&#10;Exact Target 2.0&#10;ExactTarget&#10;Facebook Demographics for Apps and Websites&#10;ForeSee (v2.0)&#10;GenesisMigrationTest&#10;GenesisMigrationTest1&#10;GenesisMigrationTest2&#10;Gigya&#10;HootSuite&#10;Listrak&#10;MediaMind&#10;Merkle&#10;Neolane - Enterprise Marketing Platform&#10;Responsys&#10;Salesforce.com&#10;Searchmetrics&#10;segmentTest&#10;seoClarity&#10;Silverpop Engage&#10;Silverpop Engage 2.0&#10;StrongMail Systems, Inc.&#10;ThinData EMS&#10;WhatCounts Email&#10;Yesmail Enterprise&#10;Zeta Interactive&#10;&#10;&#10;" type="java.lang.AssertionError">java.lang.AssertionError: Not by Alphabetical!
+The strings to be checked are:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+24/7 OAS
+Adform
+Aprimo Enterprise Marketing Management
+Apsis
+Azia
+BlueHornet eMarketing Suite
+BrightEdge
+BrightEdge Express
+Bronto Software
+Bunchball
+CheetahMail
+ClickTale
+Concep
+Conductor
+Coradiant TrueSight
+Datran Media
+Delivra
+Demandbase
+DoubleClick for Advertisers (DFA)
+DREAM
+DREAMmail 2.0
+e-Dialog Precision Central
+eC-messenger
+Eloqua
+Emailvision Campaign Commander
+emarsys xpress
+Exact Target 2.0
+ExactTarget
+Facebook Demographics for Apps and Websites
+ForeSee (v2.0)
+GenesisMigrationTest
+GenesisMigrationTest1
+GenesisMigrationTest2
+Gigya
+HootSuite
+Listrak
+MediaMind
+Merkle
+Neolane - Enterprise Marketing Platform
+Responsys
+Salesforce.com
+Searchmetrics
+segmentTest
+seoClarity
+Silverpop Engage
+Silverpop Engage 2.0
+StrongMail Systems, Inc.
+ThinData EMS
+WhatCounts Email
+Yesmail Enterprise
+Zeta Interactive
+
+
+&#13;
+	at org.junit.Assert.fail(Assert.java:93)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:43)&#13;
+	at com.omniture.uiautomation.framework.SeleniumPage.assertSortByText(SeleniumPage.java:328)&#13;
+	at com.omniture.uiautomation.genesis.pages.GenesisIntegrationPage.assertProductsSortedByName(GenesisIntegrationPage.java:53)&#13;
+	at com.omniture.uiautomation.genesis.tests.SortTest.testSort(SortTest.java:39)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:597)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:128)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:24)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)&#13;
+	at com.omniture.uiautomation.TestRunner.runOnce(TestRunner.java:113)&#13;
+	at com.omniture.uiautomation.TestRunner.runAll(TestRunner.java:89)&#13;
+	at com.omniture.uiautomation.TestRunner.run(TestRunner.java:68)&#13;
+	at com.omniture.uiautomation.TestRunner.main(TestRunner.java:40)&#13;
+</failure></testcase><testcase classname="com.omniture.uiautomation.genesis.tests.SupportConfigureTest" name="testSupportConfigure" time="98.408"/><testcase classname="com.omniture.uiautomation.genesis.tests.WizardTest" name="testWizard" time="184.158"/></testsuite>

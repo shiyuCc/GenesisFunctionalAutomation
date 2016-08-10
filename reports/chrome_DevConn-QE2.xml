@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" hostname="csy-PC" name="chrome DevConn-QE2" tests="1" time="10.099" timestamp="2012-08-07T09:01:06"><testcase classname="com.omniture.uiautomation.genesis.tests.WizardTest" name="testWizard" time="10.03"><failure message="Chrome did not respond to 'WaitForAllTabsToStopLoading'. Elapsed time was 5 ms. Request details: ({&quot;command&quot;:&quot;WaitForAllTabsToStopLoading&quot;}). (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 11 milliseconds&#10;Build info: version: '2.20.0', revision: '16008', time: '2012-02-27 19:03:04'&#10;System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0_10-rc2'&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Chrome did not respond to 'WaitForAllTabsToStopLoading'. Elapsed time was 5 ms. Request details: ({"command":"WaitForAllTabsToStopLoading"}). (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+Build info: version: '2.20.0', revision: '16008', time: '2012-02-27 19:03:04'
+System info: os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0_10-rc2'
+Driver info: driver.version: RemoteWebDriver&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:170)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:123)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:438)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:226)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:243)&#13;
+	at org.openqa.selenium.By$ById.findElement(By.java:216)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:218)&#13;
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:343)&#13;
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$0(ExpectedConditions.java:341)&#13;
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:88)&#13;
+	at org.openqa.selenium.support.ui.ExpectedConditions$3.apply(ExpectedConditions.java:1)&#13;
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:201)&#13;
+	at com.omniture.uiautomation.framework.SeleniumPage.waitUntilElement(SeleniumPage.java:333)&#13;
+	at com.omniture.uiautomation.pages.OmniturePage.waitUntilPageLoad(OmniturePage.java:59)&#13;
+	at com.omniture.uiautomation.genesis.pages.GenesisPage.navigateToShowcase(GenesisPage.java:79)&#13;
+	at com.omniture.uiautomation.genesis.tests.WizardTest.testWizard(WizardTest.java:16)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)&#13;
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)&#13;
+	at java.lang.reflect.Method.invoke(Method.java:597)&#13;
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)&#13;
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)&#13;
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)&#13;
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)&#13;
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)&#13;
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)&#13;
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)&#13;
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:128)&#13;
+	at org.junit.runners.Suite.runChild(Suite.java:24)&#13;
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)&#13;
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)&#13;
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)&#13;
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)&#13;
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:157)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:136)&#13;
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)&#13;
+	at com.omniture.uiautomation.TestRunner.runOnce(TestRunner.java:113)&#13;
+	at com.omniture.uiautomation.TestRunner.runAll(TestRunner.java:89)&#13;
+	at com.omniture.uiautomation.TestRunner.run(TestRunner.java:68)&#13;
+	at com.omniture.uiautomation.TestRunner.main(TestRunner.java:40)&#13;
+</failure></testcase></testsuite>
